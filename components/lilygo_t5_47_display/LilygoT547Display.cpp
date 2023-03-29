@@ -15,7 +15,7 @@ void LilygoT547Display::setup() {
     EpdRotation orientation = EPD_ROT_LANDSCAPE;
     epd_set_rotation(orientation);
   } else {
-    EpdRotation orientation = EPD_ROT_PORTRAIT;
+    EpdRotation orientation = EPD_ROT_INVERTED_PORTRAIT;
     epd_set_rotation(orientation);
   }
   this->fb = epd_hl_get_framebuffer(&this->hl);
