@@ -7,7 +7,7 @@ from esphome.const import (
     CONF_LAMBDA,
     CONF_PAGES,
 )
-
+from esphome.const import __version__ as ESPHOME_VERSION
 from .. import lilygo_t5_47_ns
 
 CONF_CYCLES_RENDER = "cycles_render"
